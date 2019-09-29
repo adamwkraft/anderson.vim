@@ -1,19 +1,20 @@
+# adamwkraft fork of anderson.vim
+Fork of what you see with the screenshots below, except for a darker background
+
 anderson.vim
 ============
 Dark vim colorscheme based on colors from Wes Anderson films.
 
 Installation
 ------------
-Use the plugin manager of your choice, here is an example for Vim-Plug:
-
-`Plug 'gilgigilgil/anderson.vim'`
-
-`:PlugInstall`
-
-
-To preview:
-
-`:colorscheme anderson`
+Install with plugin from `adamwkraft/anderson.vim`, example for Vundle:
+`Plugin 'adamwkraft/anderson.vim'`
+ 
+ Also be sure to set:
+ ```
+ set termguicolors
+ colorscheme anderson
+ ```
 
 Screenshots
 -----------
@@ -24,9 +25,3 @@ Terminal:
 Python:
 
 ![](https://cloud.githubusercontent.com/assets/7469120/15515470/b73f5502-21ee-11e6-929f-0915120c562b.png)
-
-The font used here is Envy Code R.
-
-License
--------
-MIT
